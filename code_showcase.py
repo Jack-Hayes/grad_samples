@@ -533,5 +533,5 @@ def test_model(model, dataloader):
     return final_predictions
 
 # test the model on L1 and H1
-final_predictions_L1 = test_model(model, test_dataloader_L1, num_images_list_L1[400:])
-final_predictions_H1 = test_model(model, test_dataloader_H1, num_images_list_H1[400:])
+final_predictions_L1 = test_model(model, test_dataloader_L1, num_images_list_L1_test[n_files_for_training:n_files_cap])
+final_predictions_H1 = test_model(model, test_dataloader_H1, num_images_list_H1_test[n_files_for_training:n_files_cap])
