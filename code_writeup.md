@@ -24,25 +24,25 @@ These two interferometers, Hanford (H1) and Livingston (L1), are located in Wash
 
 The data is in an open source format, Hierarchical Data Format version 5 (HDF5), which is commonly used to support large, complex, heterogeneous data. The HDF5 strucutre includes two major object types:
 
-Datasets: Typed multidimensional arrays
+*Datasets*: Typed multidimensional arrays
 
-Groups: Container structures that can hold datasets and other groups
+*Groups*: Container structures that can hold datasets and other groups
 
 
 Below is the formatting of the HDF5 files in this specific context.
 
-ID: top group of the HDF5 file and links the datapoint to it's label in the train_labels csv (group)
+*ID*: top group of the HDF5 file and links the datapoint to it's label in the train_labels csv (group)
 
-frequency_Hz: range frequencies measured by the dectors (dataset)
+*frequency_Hz*: range frequencies measured by the dectors (dataset)
 
-H1: contains the data for the LIGO Hanford decector (group)
+*H1*: contains the data for the LIGO Hanford decector (group)
 
-	SFTs: Short-time Fourier Transforms amplitudes for each timestamp at each frequency (dataset)
-	timestamps contains: timestamps for the measurement (dataset)
+	*SFTs*: Short-time Fourier Transforms amplitudes for each timestamp at each frequency (dataset)
+	*timestamps*: timestamps for the measurement (dataset)
  
-L1: contains the data for the LIGO Livingston decector (group)
-	SFTs: Short-time Fourier Transforms amplitudes for each timestamp at each frequency (dataset)
-	timestamps contains: timestamps for the measurement (dataset)
+*L1*: contains the data for the LIGO Livingston decector (group)
+	*SFTs*: Short-time Fourier Transforms amplitudes for each timestamp at each frequency (dataset)
+	*timestamps*: timestamps for the measurement (dataset)
  
 
 ![](hdf5_format.png)
