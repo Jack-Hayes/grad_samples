@@ -1,5 +1,7 @@
 # **Jack Edward Geng-Gene Hayes Code and Writing Samples**
 
+[CV](Hayes_Jack_CV.pdf) as of 11/29/2023
+
 ## Code Samples
 
 ### Detecting Continuous Gravitational Waves Using a Densely Connected Convolutional Neural Network
