@@ -20,15 +20,17 @@ The goal of this Kaggle competition is to detect continuous gravitational-wave s
 The data used for this project was found free from an online data analysis competition provided by the European Gravitational Observatory - the Kaggle competition [G2Net Detecting Continuous Gravitational Waves](https://www.kaggle.com/competitions/g2net-detecting-continuous-gravitational-waves/overview). The data consists of time-frequency data from the two Laser Interferometer Gravitational-Wave Observatory (LIGO) interferometers, some of the samples containing injected, simulated continuous gravitational wave signals.
 
 These two interferometers, Hanford (H1) and Livingston (L1), are located in Washington State and Louisiana respectively. They are able to detect the smallest of disturbances on Earth. If a gravitational wave were to 'pass through' Earth, rapidly stretching and compressing the planet at a very small scale, the detectors are able to record nearly the same exact distrurbance at essentially the same time. Being able to extract this data from L1 and H1 and identify patterns in both detectors when a simulated gravitational wave is present is the aim of this analysis.
-
-
+<br>
+<br>
+<br>
 The data is in an open source format, Hierarchical Data Format version 5 (HDF5), which is commonly used to support large, complex, heterogeneous data. The HDF5 strucutre includes two major object types:
 
 *Datasets*: Typed multidimensional arrays
 
 *Groups*: Container structures that can hold datasets and other groups
-
-
+<br>
+<br>
+<br>
 Below is the formatting of the HDF5 files in this specific context.
 
 *ID*: top group of the HDF5 file and links the datapoint to it's label in the train_labels csv (group)
@@ -36,13 +38,16 @@ Below is the formatting of the HDF5 files in this specific context.
 *frequency_Hz*: range frequencies measured by the dectors (dataset)
 
 *H1*: contains the data for the LIGO Hanford decector (group)
+	
+&nbsp;&nbsp;&nbsp;&nbsp;*SFTs*: Short-time Fourier Transforms amplitudes for each timestamp at each frequency (dataset)
 
-	*SFTs*: Short-time Fourier Transforms amplitudes for each timestamp at each frequency (dataset)
-	*timestamps*: timestamps for the measurement (dataset)
+&nbsp;&nbsp;&nbsp;&nbsp;*timestamps*: timestamps for the measurement (dataset)
  
 *L1*: contains the data for the LIGO Livingston decector (group)
-	*SFTs*: Short-time Fourier Transforms amplitudes for each timestamp at each frequency (dataset)
-	*timestamps*: timestamps for the measurement (dataset)
+
+&nbsp;&nbsp;&nbsp;&nbsp;*SFTs*: Short-time Fourier Transforms amplitudes for each timestamp at each frequency (dataset)
+
+&nbsp;&nbsp;&nbsp;&nbsp;*timestamps*: timestamps for the measurement (dataset)
  
 
 ![](hdf5_format.png)
