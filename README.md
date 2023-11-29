@@ -1,15 +1,15 @@
 # **Jack Edward Geng-Gene Hayes Code and Writing Samples**
 
-# Code Samples
+## Code Samples
 
-## Detecting Continuous Gravitational Waves Using a Densely Connected Convolutional Neural Network
+### Detecting Continuous Gravitational Waves Using a Densely Connected Convolutional Neural Network
 
 1. [Code sample](code_showcase.py)
 2. [Code sample writeup](code_writeup.md)
 
-# Writing Samples
+## Writing Samples
 
-## ESRI User Conference 2024
+### ESRI User Conference 2024
 
 [“Enriching Big Geospatial Data: A case study of enriching 10 Billion tweets with Geography”](esri.pdf)
 
@@ -17,7 +17,7 @@ Fu, Xiaokang, Devika, J., **J.E.G. Hayes**
 
 *Submitted 11/25/2023*
 
-## Informal Journal Abstract
+### Informal Journal Abstract
 
 [Here](kba.pdf) is an informal abstract which is a combination of two related papers I'm co-authoring alongside a team at Key Biodiversity Areas listed below:
 
@@ -25,7 +25,7 @@ Plumptree, A., **J.E.G. Hayes**, Baisero, D., Rose, R., R.J. Smith, “The benef
 
 Baisero, D., **J.E.G. Hayes**, Plumptree, A., Rose, R., “The Significance of Gamma Irreplaceability in Combating Random Site Loss for Spatial Conservation Planning” *Conservation Letters*, In progress
 
-## American Geophysical Union Meeting 2023 Oral Presentation (Outstanding Student Presenter Awards)
+### American Geophysical Union Meeting 2023 Oral Presentation (Outstanding Student Presenter Awards)
 
 [“Documenting and Mapping Local Ecological Knowledge and Practices around Watersheds to Inform Community-Based Sustainability and Conservation Policy in Nepal”](AGU_abstract.pdf)
 
