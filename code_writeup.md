@@ -1,6 +1,6 @@
 # Applying Machine Learning Algorithms to Detect Continuous Gravitational Waves
 
-This is a showcase of a directed research data science project (DATA 390) that has a focus of advancing the student’s understanding of data science by applying machine learning concepts to an area of interest - astrophysics. The code for this description can be found [here](code_sample.py).
+This is a showcase of a directed research data science project (DATA 390) that has a focus of advancing the student’s understanding of data science by applying machine learning concepts to an area of interest - astrophysics. The code for this description can be found [here](code_showcase.py).
 
 ### Astronomical Background
 
