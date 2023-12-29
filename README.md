@@ -17,7 +17,7 @@
 
 Fu, Xiaokang, Devika, J., **J.E.G. Hayes**
 
-*Submitted 11/25/2023*
+*Accepted 12/19/2023*
 
 ### Informal Journal Abstract
 
@@ -27,7 +27,7 @@ Plumptree, A., **J.E.G. Hayes**, Baisero, D., Rose, R., R.J. Smith, “The benef
 
 Baisero, D., **J.E.G. Hayes**, Plumptree, A., Rose, R., “The Significance of Gamma Irreplaceability in Combating Random Site Loss for Spatial Conservation Planning” *Conservation Letters*, In progress
 
-### American Geophysical Union Meeting 2023 Oral Presentation (Outstanding Student Presenter Awards)
+### American Geophysical Union Meeting 2023 Oral Presentation
 
 [“Documenting and Mapping Local Ecological Knowledge and Practices around Watersheds to Inform Community-Based Sustainability and Conservation Policy in Nepal”](AGU_abstract.pdf)
 
