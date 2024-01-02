@@ -1,6 +1,6 @@
 # **Jack Edward Geng-Gene Hayes Code and Writing Samples**
 
-[CV](Hayes_Jack_CV.pdf) as of 12/28/2023
+[CV](Hayes_Jack_CV.pdf) as of 01/02/2024
 
 ## Code Samples
 
